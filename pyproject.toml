@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "crawling_project_23"
+version = "0.1.0"
+description = "The Data Crawler is a Python script designed for web scraping and data extraction. This script is particularly focused an webpages, capturing details like product names, prices, and image URLs. It's built using Python 3, with dependencies on libraries like `lxml`, `requests`, and `pandas`, making it a practical tool for those interested in learning web crawling and scraping techniques."
+authors = ["DenKof82 <k.denisas@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+with dependencies on libraries like ``, `requests`, and `pandas`,
+[tool.poetry.dependencies]
+python = "^3.12"
+lxml
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
