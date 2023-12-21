@@ -1,6 +1,5 @@
 import requests
 from lxml import html as HTML
-import pandas as pd
 import time
 import os
 import csv

@@ -1,7 +1,8 @@
 import unittest
 import os
-from main import download_image, crawl_vitamin_c_products
-import config
+from crawling_project_23.main import download_image, crawl_vitamin_c_products
+from crawling_project_23 import config
+
 
 class TestWebScraper(unittest.TestCase):
 
